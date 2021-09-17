@@ -1,0 +1,139 @@
+
+
+@import "../css/separaciones";
+@import "../css/generales";
+@import "../css/variables";
+
+
+
+
+body{
+
+    p{
+        margin-bottom: 20px;
+        font-weight: lighter;
+    }
+
+	 h1,h3,h2,h4,h5,p {
+ 
+        color: $destacados-titulos;
+      }
+       
+}
+
+
+header{
+  
+	background-color: #0d3351;
+	width: 100%;
+	margin-top:0%;
+	
+   
+  }
+  .puntopartida {
+
+    h1{
+        color: #f7c4a9;
+        font-size: 5rem;
+        margin-bottom: 0px;
+    }
+	
+}
+
+  
+  .container__encabezadosecundario {
+	color: #f7c4a9;
+	font-size: 3rem;
+  }
+  
+  .container__encabezadoprincipal {
+	color: white;
+	font-size: 2rem;
+	font-weight: lighter;
+  }
+  
+  .container__imagen {
+
+    width:112px;
+    height: 156px;
+
+  }
+
+  .container__pastillas {
+	background-color: $color-pastilla;
+	width: $pastilla-width;
+	padding: $pastilla-padding;
+	border-radius: $pastilla-border;
+  }
+  .container__pastillases{
+	background-color: #0c1622;
+	width: $pastilla-width;
+	padding: $pastilla-padding;
+	border-radius: $pastilla-border;
+  }
+  .container__pastillasdos {
+	background-color: $color-pastilla;
+	width: $pastilla-width;
+	padding: $pastilla-padding;
+	border-radius: $pastilla-border;
+  }
+
+.cardnew{
+
+	position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+	background-color: #0d3351;
+    border-radius: .25rem;
+
+    .container__sombra{
+		margin-left: 2rem;
+		box-shadow: -21px 15px 99px -8px rgba(0, 0, 0, 0.527);
+		-webkit-box-shadow: -21px 15px 99px -8px rgba(0,0,0,0.82);
+		-moz-box-shadow: -21px 15px 99px -8px rgba(0,0,0,0.82);
+    }
+
+    .caja{
+
+        background-color: #bababa; 
+        margin-top: 30%;
+    }
+
+}
+
+.escuchofondo{
+
+	background-color: #202f42;
+}
+
+
+
+
+
+@media (min-width: 360px) { 
+	.separacion{
+		padding-top: 6rem;
+
+	}
+	
+ }
+
+
+@media (min-width: 768px) { 
+	
+	.separacion{
+		padding-top: 1rem;
+
+	}
+	
+}
+
+
