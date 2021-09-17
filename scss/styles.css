@@ -1,0 +1,214 @@
+.sin_margen {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.sin_padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sin_flex {
+  display: inherit;
+}
+
+.sin_padding_der {
+  padding-right: 0px;
+}
+
+.sin_padding_izq {
+  padding-left: 0px;
+}
+
+.margen_arriba_1 {
+  margin-top: 1%;
+}
+
+.margen_arriba_2 {
+  margin-top: 2%;
+}
+
+.margen_arriba_3 {
+  margin-top: 3%;
+}
+
+.margen_arriba_4 {
+  margin-top: 4%;
+}
+
+.margen_arriba_5 {
+  margin-top: 5%;
+}
+
+.margen_abajo_1 {
+  margin-bottom: 1%;
+}
+
+.margen_abajo_2 {
+  margin-bottom: 2%;
+}
+
+.margen_abajo_3 {
+  margin-bottom: 3%;
+}
+
+.margen_abajo_4 {
+  margin-bottom: 4%;
+}
+
+.margen_abajo_5 {
+  margin-bottom: 5%;
+}
+
+.padding_arriba_1 {
+  padding-top: 1%;
+}
+
+.padding_arriba_2 {
+  padding-top: 2%;
+}
+
+.padding_arriba_3 {
+  padding-top: 3%;
+}
+
+.padding_arriba_4 {
+  padding-top: 4%;
+}
+
+.padding_arriba_5 {
+  padding-top: 5%;
+}
+
+.padding_abajo_1 {
+  padding-bottom: 1%;
+}
+
+.padding_abajo_2 {
+  padding-bottom: 2%;
+}
+
+.padding_abajo_3 {
+  padding-bottom: 3%;
+}
+
+.padding_abajo_4 {
+  padding-bottom: 4%;
+}
+
+.padding_abajo_5 {
+  padding-bottom: 5%;
+}
+
+body {
+  background-color: #558caa;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+body p {
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+body h1, body h3, body h2, body h4, body h5, body p {
+  color: white;
+}
+
+header {
+  background-color: #0d3351;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.puntopartida h1 {
+  color: #f7c4a9;
+  font-size: 5rem;
+  margin-bottom: 0px;
+}
+
+.container__encabezadosecundario {
+  color: #f7c4a9;
+  font-size: 3rem;
+}
+
+.container__encabezadoprincipal {
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.container__imagen {
+  width: 112px;
+  height: 156px;
+}
+
+.container__pastillas {
+  background-color: #202f42;
+  width: 10rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.container__pastillases {
+  background-color: #0c1622;
+  width: 10rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.container__pastillasdos {
+  background-color: #202f42;
+  width: 10rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.cardnew {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: #0d3351;
+  border-radius: .25rem;
+}
+
+.cardnew .container__sombra {
+  margin-left: 2rem;
+  box-shadow: -21px 15px 99px -8px rgba(0, 0, 0, 0.527);
+  -webkit-box-shadow: -21px 15px 99px -8px rgba(0, 0, 0, 0.82);
+  -moz-box-shadow: -21px 15px 99px -8px rgba(0, 0, 0, 0.82);
+}
+
+.cardnew .caja {
+  background-color: #bababa;
+  margin-top: 30%;
+}
+
+.escuchofondo {
+  background-color: #202f42;
+}
+
+@media (min-width: 360px) {
+  .separacion {
+    padding-top: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .separacion {
+    padding-top: 1rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
